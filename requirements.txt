@@ -3,4 +3,4 @@ numpy
 pandas
 pydeck
 streamlit
-gtts==2.4.0
+gtts>=2.4.0
