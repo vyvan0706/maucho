@@ -3,6 +3,7 @@ import gtts
 from ftlangdetect import detect as lang_detector
 from deep_translator import GoogleTranslator
 st.title(':rainbow[Lồng tiếng với chị Google]')
+st.image('https://nguyendang.net.vn/wp-content/uploads/2021/06/google-translate-extension-TIEN-ICH-MO-RONG-GOOGLE-DICH.jpg',width=100)
 user_input= st.text_area('Nhập văn bản muốn lồng tiếng')
 language_code_mapping={
      'Tiếng Việt':'vi',
