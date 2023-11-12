@@ -1,8 +1,5 @@
 import streamlit as st
-import sys
-print("Python Version:", sys.version)
-print("Python Path:", sys.executable)
-# from gtts import gTTS
+from gtts import gTTS
 from ftlangdetect import detect as lang_detector
 from deep_translator import GoogleTranslator
 
