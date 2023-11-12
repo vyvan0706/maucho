@@ -1,4 +1,3 @@
-# YOUR CODE
 import streamlit as st
 tab1,tab2,tab3=st.tabs(['Trang chủ','Cà phê','Trà'])
 with tab1:
