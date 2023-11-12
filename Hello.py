@@ -2,8 +2,7 @@ import streamlit as st
 import gtts
 from ftlangdetect import detect as lang_detector
 from deep_translator import GoogleTranslator
-
-st.title(':blue[Lồng tiếng với chị Google]')
+st.title(':rainbow[Lồng tiếng với chị Google]')
 user_input= st.text_area('Nhập văn bản muốn lồng tiếng')
 language_code_mapping={
      'Tiếng Việt':'vi',
