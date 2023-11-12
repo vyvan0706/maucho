@@ -24,9 +24,11 @@ if user_input and submitbut:
      result.save('S2/result.mp3')
      col1,col2=st.columns(2)
      with col1:
+       st.toast('cảm ơn bạn',icon='🎈')
        st.subheader('Văn bản gốc')
        st.audio('S2/result.mp3')
      if translate:
+          st.balloons()
           translated_input = GoogleTranslator(source='auto', target=target_language_code).translate(user_input)  
           trans_result= gtts.gTTS(text=translated_input, lang=target_language_code)
           trans_result.save('S2/trans_result.mp3')
