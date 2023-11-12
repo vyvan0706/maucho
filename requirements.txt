@@ -3,4 +3,5 @@ numpy
 pandas
 pydeck
 streamlit
+pip install gtts
 gtts>=2.4.0
