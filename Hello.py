@@ -10,7 +10,7 @@ language_code_mapping={
      'Tiếng Hàn':'ko',
      'Tiếng Nhật':'ja'
 } 
-translate = st.toggle('Dịch văn bản')
+translate = st.toggle(':red:[Dịch văn bản]')
 if translate:
      target_language= st.selectbox(
     'Chọn ngôn ngữ của bản dịch',
